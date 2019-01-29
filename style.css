@@ -1,6 +1,7 @@
 body {
     background-color: #FFF;
     margin: 0 auto;
+    display: block;
   }
 
 input {
@@ -14,7 +15,7 @@ input {
 }
 
 .main {
-    display: block; 
+    display: block;
     min-width: 1200px;
     margin: 0 auto; 
     margin-top: 200px;
@@ -32,9 +33,16 @@ input {
     margin: auto;
     margin-top: 20px; 
     height: 100px; 
-    width: 210px;
+    width: 240px;
 }
 
 .button {
     display: inline;
+}
+
+button {
+    padding: 10px;
+    border: none; 
+    background-color:#d9dce0;
+    font-weight: bold;
 }
